@@ -5,7 +5,7 @@ body {
 
 header h1 {
   font-size: 36px;
-  color: #8AAAE5;
+  color: burlywood;
 }
 
 form {
@@ -46,7 +46,7 @@ form button[type="submit"] {
   font-size: 14px;
   padding: 10px 20px;
   border-radius: 4px;
-  background-color: #8AAAE5;
+  background-color: burlywood;
   color: #ffffff;
   border: none;
   cursor: pointer;
@@ -92,7 +92,7 @@ section#tasks ul#task-list li button {
   font-size: 14px;
   padding: 10px 20px;
   border-radius: 4px;
-  background-color: #8AAAE5;
+  background-color: burlywood;
   color: #ffffff;
   border: none;
   cursor: pointer;
