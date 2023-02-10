@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Day2Day</title>
+        <link rel="stylesheet" href="styles.css" type="text/css"> 
+    </head>
+    <body>
+        <header>
+            <h1>Day2Day</h1>
+        </header>
+        <form id="add-task-form">
+            <label for="task-catagory">Task Category:</label>
+            <select id="task-category">
+                <option value="default">Category</option>
+                <option value="personal">Personal</option>
+                <option value="work">Work</option>
+            </select>
+            <label for="task-description">Task Description:</label>
+            <input type="text" id="task-description" placeholder="Enter a new task">
+            <button type="submit">Add Task</button>
+        </form>
+        <section id="tasks">
+            <h2>Tasks:</h2>
+            <ul id="task-list">
+            <li>
+                <input type="checkbox">
+                <label>Do Bed</label>
+                <button class="edit-task">Edit</button>
+                <button class="delete-task">Delete</button>
+            </li>
+
+            <li>
+                <input type="checkbox">
+                <label>Study</label>
+                <button class="edit-task">Edit</button>
+                <button class="delete-task">Delete</button>
+            </li>
+            <li>
+                <input type="checkbox">
+                <label>Go to the Gym</label>
+                <button class="edit-task">Edit</button>
+                <button class="delete-task">Delete</button>
+            </li>
+            <li>
+                <input type="checkbox">
+                <label>Pray</label>
+                <button class="edit-task">Edit</button>
+                <button class="delete-task">Delete</button>
+            </li>
+        </ul>
+        </section>
+        <script src="script.js"></script>
+    </body>
+</html>

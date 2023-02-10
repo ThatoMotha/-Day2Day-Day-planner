@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+}
+
+header h1 {
+  font-size: 36px;
+  color: #8AAAE5;
+}
+
+form {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+
+form label {
+  font-size: 14px;
+  color: #5f6368;
+  margin-right: 20px;
+}
+
+form select {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  color: #5f6368;
+  margin-right: 20px;
+}
+
+form input[type="text"] {
+  font-size: 14px;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #e0e0e0;
+  width: 60%;
+  color: #5f6368;
+}
+
+form button[type="submit"] {
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #8AAAE5;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
+
+section#tasks {
+  width: 80%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+section#tasks h2 {
+  font-size: 20px;
+  color: #5f6368;
+  margin-bottom: 20px;
+}
+
+section#tasks ul#task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+section#tasks ul#task-list li {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+section#tasks ul#task-list li input[type="checkbox"] {
+  margin-right: 20px;
+}
+
+section#tasks ul#task-list li label {
+  font-size: 16px;
+  color: #5f6368;
+  margin-right: 20px;
+  width: 60%;
+}
+
+section#tasks ul#task-list li button {
+  font-size: 14px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: #8AAAE5;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-right: 20px;
+}
